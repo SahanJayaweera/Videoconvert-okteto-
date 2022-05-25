@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  worker:
+    build: .
+    environment:
+      ACCESS_CHANNEL: $ACCESS_CHANNEL
+      API_HASH: $API_HASH
+      API_ID: $API_ID
+      AUTH_USERS: $AUTH_USERS
+      BOT_TOKEN: $BOT_TOKEN
+      BOT_UN: $BOT_UN
+      FORCESUB: $FORCESUB
+      FORCESUB_UN: $FORCESUB_UN
+      LOG_CHANNEL: $LOG_CHANNEL
+      LOG_ID: $LOG_ID
+      MONGODB_URI: $MONGODB_URI
